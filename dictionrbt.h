@@ -1,6 +1,5 @@
 //====================================================================
 // Anamay Agnihotri and Aixin Li
-// Submitted: November 17, 2017
 // dictionrbt.cpp
 // Dictionary definition for RBT
 //====================================================================
@@ -20,21 +19,18 @@ using namespace std;
 template<class KeyType>
 class dictionrbt : public RedBlack<KeyType>
 {
-	public:
-		/*constructor, destructor and copy constructor
-		inherited from BST<KeyType>*/
-		//using RedBlack<KeyType>::root;
-  //  using RedBlack<KeyType>:: NIL;
-
+public:	
+	
+/*constructor, destructor and copy constructor inherited from BST<KeyType>*/
+	
+    // using RedBlack<KeyType>::root;
+    // using RedBlack<KeyType>:: NIL;
+    
     using RedBlack<KeyType>::empty;
     using RedBlack<KeyType>::get;
     using RedBlack<KeyType>::remove;
     using RedBlack<KeyType>::insert;
-		using RedBlack<KeyType>::inOrder;
-
+    using RedBlack<KeyType>::inOrder;
 };
-
-
-
 
 #endif
