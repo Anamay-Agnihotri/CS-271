@@ -10,9 +10,7 @@ CS 271 is a course about the fundamental methods of storing data along with impl
 
 Any text editor (eg. Atom, gedit,..) to read in the .cpp, .h files
 
-A C/C++ compiler (eg. GNU, Intel,..) to compile
-
-.cpp and .h files 
+A C/C++ compiler (eg. GNU, Intel,..) to compile .cpp and .h files 
 
 #### Repository contains:
 
