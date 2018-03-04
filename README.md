@@ -14,11 +14,9 @@ A C/C++ compiler (eg. GNU, Intel,..) to compile .cpp and .h files
 
 #### Repository contains:
 
-Data structure and algorithm topics like:
+Implementation of Red Black Trees (RBT) data strucuture
 
-* Linked lists
-* Binary Search Trees
-* Red Black Trees
+Portfolio (Course summary and analysis)
 
 ##### Note: This repository only contains select files for the mentioned topics due to the sensitive nature of the code/data. 
 
