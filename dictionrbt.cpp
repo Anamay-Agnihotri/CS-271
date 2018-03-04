@@ -1,6 +1,5 @@
 //====================================================================
 // Anamay Agnihotri and Aixin Li
-// Submitted: November 17, 2017
 // dictionrbt.cpp
 // Dictionary implementation of RBT
 //====================================================================
@@ -8,7 +7,7 @@
 #include<iostream>
 
 /*-----------------------------
-* constructor
+   constructor
 -----------------------------*/
 template<class KeyType>
 dictionrbt<KeyType>::dictionrbt()
@@ -17,7 +16,7 @@ dictionrbt<KeyType>::dictionrbt()
 }
 
 /*-----------------------------
-* destructor
+   destructor
 -----------------------------*/
 template<class KeyType>
 dictionrbt<KeyType>::~dictionrbt()
@@ -26,7 +25,7 @@ dictionrbt<KeyType>::~dictionrbt()
 }
 
 /*-----------------------------
-* insert
+   insert
 -----------------------------*/
 
 template<class KeyType>
@@ -35,8 +34,8 @@ void dictionrbt<KeyType>::insert(KeyType *k)
   b->insert(k);
 }
 
-// /*-----------------------------
-// * remove
+/*-----------------------------
+   remove
 // -----------------------------*/
 
 template<class KeyType>
@@ -46,7 +45,7 @@ template<class KeyType>
  }
 
 /*-----------------------------
-* get
+   get
 -----------------------------*/
 template<class KeyType>
 KeyType* dictionrbt<KeyType>::get(KeyType& k)
@@ -55,7 +54,7 @@ KeyType* dictionrbt<KeyType>::get(KeyType& k)
 }
 
 /*-----------------------------
-* empty
+   empty
 -----------------------------*/
 template<class KeyType>
 bool dictionrbt<KeyType>::empty()
